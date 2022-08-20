@@ -1,0 +1,139 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+h1, h3 {
+    margin-top: 12px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    /* background-color: rgb(219, 159, 86); */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 33px;
+    margin-bottom: 23px;
+    overflow-y: auto;
+}
+
+.message {
+    width: 24%;
+    padding: 10px;
+    margin: 17px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left {
+    background-color: rgb(201, 199, 199);
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+    background-color: rgb(172, 168, 168);
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp {
+    width: 92%;
+    border: 2px solid black;
+    height: 24px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(3, 97, 128);
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: lightblue;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));
+    overflow: hidden;
+}
+
+.btn2 {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-weight: 600;
+    background-color: rgb(3, 97, 128);
+    font-size: 1.6rem;
+}
+
+.btn2s:hover{
+    cursor: pointer;
+    color: black;
+    background-color: lightblue;
+}
+
+.main-body {
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-top: 10px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #messageInp {
+        width: 80%;
+        border: 2px solid black;
+        height: 24px;
+    }
+    
+    .btn {
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 6px;
+        height: 34px;
+        width: 12%;
+    }
+
+    .message {
+        background-color: rgb(172, 168, 168);
+        width: 50%;
+        padding: 10px;
+        margin: 4px 2px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+  }
